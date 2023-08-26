@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url(image/banner.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.container{
+    width: 600px;
+    text-align: right;
+    padding-right: 150px;
+}
+.container h1{
+    font-size: 50px;
+    color: #fff;
+
+}
+.container p{
+    color: #fff;
+    margin: 20px 0;
+}
+.container button{
+    padding: 10px 25px;
+    font-weight: 600;
+
+    /* end of header section */
+}
+.failures{
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.failures .failures-content h2{
+    font-size: 30px;
+}
+.failures .failures-content p{
+    margin: 20px 0;
+}
+.failures .failures-content ul{
+    list-style-type: none;
+}
+.failures .failures-content ul li{
+    line-height: 2;
+    display: flex;
+    align-items: center;
+}
+.failures .failures-content ul li i{
+    color: #16D887; 
+    font-size: 20px;
+    margin-right: 10px;
+
+}
+.failures img{
+    width: 80%;
+}
+.failures div{
+    flex-basis: 50%;
+}
+   /* end of failures */
+
+.plans{
+    width: 80%;
+    margin: auto;
+}
+.plans-heading{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+}
+.plans-items{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+    text-align: center;
+    margin: 10px 0;
+}
+.plans-items div h3{margin: 10 0;}
+
+   /* end of plans */
+
+   footer{
+    background: #151414; 
+    margin-top: 20px;
+}
+
+.footer-container{
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+.footer-container div h2{
+    font-size: 30px ;
+    color: #fff;
+}
+.footer-container div p{
+    color: #fff;
+    margin: 15px 0;
+}
+.footer-container div ul{
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+.footer-container div ul li{
+    color: #fff;
+    line-height: 2;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 10px;
+}
+.footer-icons i{
+    font-size: 30px;
+    color: #fff;
+}
+.footer-left{
+    flex-basis: 50%;
+}
+.footer-right{
+    flex-basis: 25%;
+}
+.footer-right h3{
+    color: #fff;
+}
+
+.footer-right input {
+    padding: 12px;
+    width: 100%;
+    margin: 15px 0;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+.footer-right button{
+    padding: 10px 25px ;
+}
+
